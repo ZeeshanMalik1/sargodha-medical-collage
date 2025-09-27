@@ -1,0 +1,68 @@
+.admin-sidenav {
+  width: 240px;
+  background: linear-gradient(180deg,#8b0000,#660000);
+  color: #fff;
+  padding: 22px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.sidenav-brand {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  color: #fffdb7;
+}
+
+.sidenav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.sidenav-menu a {
+  color: rgba(255,255,255,0.95);
+  text-decoration: none;
+  padding: 9px 12px;
+  border-radius: 8px;
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.sidenav-menu a:hover {
+  background: rgba(255,255,255,0.06);
+  transform: translateX(6px);
+}
+
+.sidenav-menu a.active {
+  background: rgba(255,255,255,0.12);
+  color: #fffdf0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.sidenav-footer {
+  margin-top: auto;
+}
+
+.btn-logout {
+  width: 100%;
+  background: #ffd700;
+  color: #6b0000;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: transform 0.2s ease;
+}
+
+.btn-logout:hover { transform: translateY(-3px); }
+
+@media (max-width: 900px) {
+  .admin-sidenav { display: none; }
+}
