@@ -12,7 +12,8 @@
 .noti-section-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   position: relative;
   display: inline-block;
 }
@@ -36,7 +37,8 @@
 
 .notification.empty i {
   font-size: 2rem;
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   margin-bottom: 10px;
 }
 
@@ -57,7 +59,8 @@
 .notification-card:nth-child(3) { animation-delay: 0.3s; }
 
 .noti-icon {
-  background: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  background: #003366;
   color: #fff;
   border-radius: 50%;
   width: 45px;

@@ -45,14 +45,17 @@
 }
 
 .admission-container .tab-link:hover {
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   transform: translateY(-2px);
 }
 
 .admission-container .tab-link.active {
-  background: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  background: #003366;
   color: #fff;
-  box-shadow: 0 6px 14px rgba(139, 0, 0, 0.35);
+  /* CHANGED: Deep Blue (#003366) shadow instead of Dark Red */
+  box-shadow: 0 6px 14px rgba(0, 51, 102, 0.35);
   transform: scale(1.05);
 }
 
@@ -76,22 +79,25 @@
   color: #333;
   margin-bottom: 25px;
   padding-left: 18px;
-  border-left: 6px solid #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  border-left: 6px solid #003366;
   line-height: 1.4;
-  /* animation: titlePulse 2.5s  ease-in-out; */
+  /* animation: titlePulse 2.5s  ease-in-out; */
 }
 
 .admission-container h3 {
   margin-top: 20px;
   font-size: 1.25rem;
   font-weight: bold;
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   position: relative;
 }
 
 .admission-container h3::before {
   content: "▸";
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   margin-right: 8px;
   font-size: 1rem;
 }
@@ -99,12 +105,14 @@
 .admission-container hr {
   border: none;
   height: 2px;
-  background: linear-gradient(to left, #8b0000, #a52a2a);
+  /* CHANGED: Deep Blue to Medium Blue gradient instead of Red to Brown */
+  background: linear-gradient(to left, #003366, #004d99);
   border-radius: 2px;
   margin: 30px 0;
   opacity: 0.9;
-  box-shadow: 0 2px 6px rgba(139, 0, 0, 0.25);
-  animation: expandLine 2s  alternate;
+  /* CHANGED: Deep Blue shadow instead of Dark Red */
+  box-shadow: 0 2px 6px rgba(0, 51, 102, 0.25);
+  animation: expandLine 2s alternate;
 }
 
 .admission-container ul {
@@ -121,12 +129,14 @@
 
 .admission-container ul li:hover {
   transform: translateX(5px);
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
 }
 
 .admission-container .note {
-  background: #fff5f5;
-  border-left: 4px solid #8b0000;
+  /* CHANGED: Light Blue background (#f5faff) and Deep Blue border (#003366) */
+  background: #f5faff;
+  border-left: 4px solid #003366;
   padding: 14px 18px;
   margin-top: 15px;
   font-size: 0.95rem;
@@ -156,8 +166,9 @@
 }
 
 @keyframes titlePulse {
-  0%, 100% { color: #8b0000; }
-  50% { color: #a52a2a; }
+  /* CHANGED: Deep Blue to Medium Blue pulse */
+  0%, 100% { color: #003366; }
+  50% { color: #004d99; }
 }
 
 @keyframes expandLine {

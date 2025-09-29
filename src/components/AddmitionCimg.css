@@ -12,7 +12,8 @@
 .adpage-hero .adoverlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  /* CHANGED: Replaced black overlay (rgba(0, 0, 0, 0.6)) with Deep Blue (#003366) overlay with 70% opacity */
+  background: rgba(0, 51, 102, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;

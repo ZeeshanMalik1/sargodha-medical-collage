@@ -1,12 +1,15 @@
 :root {
-  --primary-color: #8b0000; 
-  --secondary-color: #660000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  --primary-color: #003366; 
+  /* CHANGED: Medium Blue (#004d99) instead of Secondary Red (#660000) */
+  --secondary-color: #004d99;
   --dark-text: #333;
   --light-text: #666;
 }
 
 .principal-hero-section {
   padding: 50px 20px;
+  /* Uses the new Deep Blue: #003366 */
   background: var(--primary-color);
   display: flex;
   justify-content: center;
@@ -34,7 +37,8 @@
 .principal-role {
   font-size: 1rem;
   font-weight: 600;
-  color: rgb(255, 215, 0);
+  /* CHANGED: Bright Blue (#3399FF) instead of Gold (rgb(255, 215, 0)) */
+  color: #3399FF;
   margin-bottom: 10px;
 }
 .principal-name {
@@ -55,6 +59,7 @@
 .read-more-btn {
   display: inline-block;
   background-color: white;
+  /* Color now uses the new Deep Blue: #003366 */
   color: var(--primary-color);
   text-decoration: none;
   padding: 12px 25px;
@@ -64,6 +69,7 @@
 }
 
 .read-more-btn:hover {
+  /* Hover background now uses the new Medium Blue: #004d99 */
   background-color: var(--secondary-color);
   color: #fff;
   transform: translateY(-2px);

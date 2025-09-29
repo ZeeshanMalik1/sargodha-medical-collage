@@ -8,7 +8,8 @@
 .download-section-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   margin-bottom: 25px;
 }
 
@@ -32,7 +33,8 @@
 
 .empty-download i {
   font-size: 2rem;
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   margin-bottom: 10px;
   display: block;
 }
@@ -66,7 +68,8 @@
 .btn-download {
   align-self: flex-start;
   padding: 8px 14px;
-  background: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  background: #003366;
   color: #fff;
   font-size: 0.9rem;
   font-weight: 600;
@@ -76,7 +79,8 @@
 }
 
 .btn-download:hover {
-  background: #b22222;
+  /* CHANGED: Medium Blue (#004d99) instead of Red Hover (#b22222) */
+  background: #004d99;
 }
 
 @keyframes slideUp {

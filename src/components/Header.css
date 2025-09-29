@@ -10,7 +10,8 @@
 }
 
 .top-bar {
-  background: #8b0000;
+  /* CHANGED: Deep Blue background instead of dark red */
+  background: #003366; 
   color: white;
   font-size: 14px;
   padding: 8px 0;
@@ -42,7 +43,8 @@
 }
 
 .social-icons a:hover {
-  color: #ddd;
+  /* CHANGED: Light gray hover for social icons */
+  color: #ddd; 
 }
 
 .main-navbar {
@@ -100,8 +102,10 @@
 
 .navbar-links a:hover,
 .navbar-links a.active {
-  color: #0b0101;
-  text-decoration: underline #8b0000;
+  /* CHANGED: Darker blue for hover/active text color */
+  color: #004d99; 
+  /* CHANGED: Deep Blue for underline color (matches top-bar background) */
+  text-decoration: underline #003366; 
   text-underline-offset: 8px;
   text-decoration-thickness: 2px;
 }
