@@ -12,7 +12,8 @@
 .research-page-hero .research-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(20, 1, 1, 0.676); /* themed overlay instead of pure black */
+  /* CHANGED: Deep Blue overlay (rgba(0, 51, 102, 0.7)) instead of dark reddish tint */
+  background: rgba(0, 51, 102, 0.7); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +21,8 @@
 }
 
 .research-page-hero h1 {
-  color: #ffffff; /* gold accent */
+  /* Retaining white for optimal readability against dark blue overlay */
+  color: #ffffff; 
   font-size: 3rem;
   font-weight: 700;
   text-align: center;

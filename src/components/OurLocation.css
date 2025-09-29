@@ -1,3 +1,8 @@
+:root {
+  /* Defining a variable for consistency */
+  --blue-primary: #003366; 
+}
+
 .our-location-section {
   background-color: #f5f5f5;
   padding: 60px 0;
@@ -6,7 +11,8 @@
 }
 
 .our-location-section .section-title {
-  color: #8B0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8B0000) */
+  color: var(--blue-primary); 
   font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
@@ -26,7 +32,8 @@
   transform: translateX(-50%);
   width: 0;
   height: 5px;
-  background: var(--primary-color);
+  /* CHANGED: Using the Deep Blue variable for the animated line */
+  background: var(--blue-primary); 
   border-radius: 4px;
   animation: titleLine 1.2s ease forwards 0.6s;
 }
@@ -112,7 +119,8 @@ iframe {
 
 .contact-info-item i {
   font-size: 1.3rem;
-  color: #8B0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8B0000) */
+  color: var(--blue-primary); 
   margin-right: 12px;
   width: 25px;
   text-align: center;
@@ -120,7 +128,8 @@ iframe {
 
 .contact-info-item:hover {
   transform: translateX(8px);
-  color: #8B0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8B0000) */
+  color: var(--blue-primary); 
 }
 
 .opening-hours {
@@ -138,7 +147,8 @@ iframe {
 }
 
 .opening-hours li:hover {
-  color: #8B0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8B0000) */
+  color: var(--blue-primary); 
 }
 
 @media (max-width: 768px) {

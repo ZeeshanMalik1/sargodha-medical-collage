@@ -11,21 +11,25 @@
 .sectionTitle {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   margin-bottom: 25px;
-  border-left: 5px solid #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  border-left: 5px solid #003366;
   padding-left: 12px;
 }
 
 .subTitle {
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   font-weight: 600;
   font-size: 1.3rem;
   margin-bottom: 20px;
 }
 
 .subSubTitle {
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   font-weight: 600;
   margin: 30px 0 15px;
 }
@@ -74,13 +78,15 @@
 
 .formGroup input:focus,
 .formGroup textarea:focus {
-  border-color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) border and shadow instead of Dark Red */
+  border-color: #003366;
   outline: none;
-  box-shadow: 0 0 5px rgba(139, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 51, 102, 0.3);
 }
 
 .btnSendMessage {
-  background: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  background: #003366;
   color: #fff;
   font-weight: 600;
   padding: 12px 22px;
@@ -91,7 +97,8 @@
 }
 
 .btnSendMessage:hover {
-  background: #a40000;
+  /* CHANGED: Medium Blue (#004d99) instead of Red Hover (#a40000) */
+  background: #004d99;
   transform: translateY(-2px);
 }
 
@@ -104,7 +111,8 @@
 
 .contactInfoItem i {
   font-size: 18px;
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   margin-top: 4px;
 }
 

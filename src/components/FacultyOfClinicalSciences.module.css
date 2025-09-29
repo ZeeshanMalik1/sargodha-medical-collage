@@ -18,7 +18,8 @@
   color: #333;
   margin-top: 30px;
   margin-bottom: 15px;
-  border-left: 5px solid #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  border-left: 5px solid #003366;
   padding-left: 12px;
   animation: slideIn 0.6s ease;
 }
@@ -66,11 +67,13 @@
 }
 
 .departmentsGrid a:hover {
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
 }
 
 .departmentsGrid a i {
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   margin-right: 8px;
   font-size: 14px;
   transition: transform 0.3s ease;
@@ -84,7 +87,8 @@
   display: inline-flex;
   align-items: center;
   background: #fffdf5;
-  color: #8b0000;
+  /* CHANGED: Deep Blue (#003366) instead of Dark Red (#8b0000) */
+  color: #003366;
   padding: 12px 22px;
   border-radius: 8px;
   font-size: 0.95rem;
