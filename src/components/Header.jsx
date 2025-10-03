@@ -17,11 +17,11 @@ function Header() {
               <i className="fas fa-phone"></i> (048) 9232004
             </span>
             <span>
-              <i className="fas fa-envelope"></i> principle.smc.health@punjab.gov.pk
+              <i className="fas fa-envelope"></i> principle.sihs.health@punjab.gov.pk
             </span>
           </div>
           <div className="social-icons">
-            <a href="http://www.facebook.com">
+            <a href="https://www.facebook.com/SIHSsargodha" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-facebook-f"></i>
             </a>
           </div>

@@ -7,22 +7,21 @@ function Section1() {
   
       <div className="row-section">
         <div className="text-column">
-          <h2 className="Why-section-title">Why<br />Choose<br />SMC</h2>
+          <h2 className="Why-section-title">Why<br />Choose<br />SIHS</h2>
           <p>
-            Sargodha Medical College offers an outstanding learning environment
-            for our graduates to practice in the modern and ever-growing social
-            care and public health sector. The medical College offers MBBS five
-            years degree program with due recognition from Pakistan Medical and
-            Dental Council and FCPS/MS/MD degree programs in collaboration with
-            the University of Health Sciences. Our research and clinical
-            practice offer us opportunities for working in partnership with
-            healthcare providers in the region to provide a variety of
-            high-quality health service.
+           Sargodha Institute of Health Sciences (SIHS) is state of the art Institution of Health Sciences, and the1st Institute in the Sargodha Division of
+Punjab which is affiliated with Government College University Faisalabad, a highly ranked university by Higher Education Commission, Pakistan
+and Clinically attached with National Hospital, Sargodha and other private hospitals (in process). Sargodha Institute of Health Sciences (SIHS)
+offering Doctor of Physiotherapy (DPT) 5 years degree program, BS Nutrition & Dietetics4 year program, Allied Health Sciences (AHS) 4 year
+program including Medical Lab. Technology (MLT),Radiology/Imaging Technology and Operation Theater Technology (OTT) and Doctor of Eastern
+Medicine and Surgery (DEMS), BS in Biochemistry and Physiology, BS in Food Sciences, BS in Ophthalmology, BS in speech Therapy and BS in
+Psychology and ADP-Advance Diploma in Psychology. Doctor of Human Nutrition and Dietetics (DHND) will be offered in near future. Sargodha
+Institute of Health Sciences (SIHS) has highly qualified faculty, excellent Anatomy museum, well equipped labs of basic medical sciences, Kinesiology/Biomechanics, Nutrition and latest computer Lab.
           </p> 
         </div>
         <div className="image-column">
           <img
-            src="/images/smcbuliding.png"
+            src="/images/sihsbuilding.jpg"
             alt="SMC Campus"
             className="responsive-image"
           />

@@ -215,3 +215,60 @@
     font-size: 1.1rem;
   }
 }
+/* Wrapper for responsiveness */
+.eligibility-wrapper {
+  overflow-x: auto;
+  margin-top: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Table base styles */
+.eligibility-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Table headers */
+.eligibility-table thead {
+  background: linear-gradient(90deg, #004aad, #0078d7);
+  color: white;
+}
+
+.eligibility-table th {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Table rows */
+.eligibility-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Zebra striping */
+.eligibility-table tbody tr:nth-child(odd) {
+  background: #f9faff;
+}
+
+/* Hover effect */
+.eligibility-table tbody tr:hover {
+  background: #eaf3ff;
+  transition: 0.2s;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .eligibility-table th,
+  .eligibility-table td {
+    padding: 10px;
+    font-size: 13px;
+  }
+}

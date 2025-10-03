@@ -15,10 +15,9 @@ function Footer() {
                 <i className="fas fa-eye"></i> Our Vision & Mission
               </div>
               <p className="footer-desc">
-                To transform healthcare through excellence in education,
-                research, and clinical practice. We're dedicated to training
-                compassionate professionals who will lead innovation in medical
-                science and community health.
+             To be among the best academic health centers in research, medical education, and excellence in patient care by using technological advancement,
+innovative methodology, immense clinical experience, continuous quality improvement, gracious professionalism and long-life learning till perfection.
+
               </p>
             </div>
 
@@ -45,22 +44,27 @@ function Footer() {
               <div className="footer-contact">
                 <p>
                   <i className="fas fa-phone-alt"></i> <strong>Phone:</strong>{" "}
-                  (048) 923-2004
+                  048-3252717
+                </p>
+                <p>
+                  <i className="fas fa-circle"></i> <strong>Whatsapp:</strong>{" "}
+                  03200827294
+
                 </p>
                 <p>
                   <i className="fas fa-envelope"></i> <strong>Email:</strong>{" "}
-                  principal.smc.health@punjab.gov.pk
+                  principal.sihs.health@punjab.gov.pk
                 </p>
                 <p>
                   <i className="fas fa-map-marker-alt"></i>{" "}
-                  <strong>Address:</strong> Faisalabad Road, Sargodha, Pakistan
+                  <strong>Address:</strong> 117-C Zafar Ullah Road Satellite Town Sargodha, Pakistan
                 </p>
 
                 <div className="social-icons">
-                  <Link to="#" aria-label="Facebook">
+                  <Link to="https://www.facebook.com/SIHSsargodha" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                     <i className="fab fa-facebook-f"></i>
                   </Link>
-                  <Link to="#" aria-label="Instagram">
+                  <Link to="https://www.instagram.com/sihs.sargodha/#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                     <i className="fab fa-instagram"></i>
                   </Link>
                   <Link to="#" aria-label="LinkedIn">

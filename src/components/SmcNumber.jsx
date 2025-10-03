@@ -44,7 +44,7 @@ function SmcNumber() {
   return (
     <div className="smc-numbers-section">
       <div className="smc-container">
-        <h2 className="smc-numbers-title">SMC IN NUMBERS</h2>
+        <h2 className="smc-numbers-title">SIHS IN NUMBERS</h2>
         <div className="smc-numbers-row">
           <div className="smc-number-box">
             <div className="number-item">

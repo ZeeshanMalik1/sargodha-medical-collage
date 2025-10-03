@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import "./Slidshow.css";
 
 const images = [
-  "/images/11072020250714508.png",
-  "/images/24072020250714558.png",
-  "/images/35072020250714928.jpg",
-  "/images/47072020250714139.jpg",
+  "/images/IMG-20250929-WA0011.jpg",
+  "/images/IMG-20250929-WA0012.jpg",
+  "/images/IMG-20250929-WA0013.jpg",
+  "/images/IMG-20250929-WA0014.jpg",
 ];
 
 function Slidshow() {

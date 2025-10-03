@@ -24,28 +24,16 @@ function NewsandEvents() {
       </div>
 
       <div className="events-grid">
-        {events.length === 0 ? (
-          <div className="event-empty">
-            <i className="far fa-sad-tear"></i>
-            <p>No events or news available at the moment. Please check back later!</p>
-          </div>
-        ) : (
-          events.map((event, index) => (
-            <div className="event-card-latest" key={event.id} style={{ animationDelay: `${index * 0.1}s` }}>
-              <img src={event.image} alt={event.title} />
-              <div className="card-body-latest">
-                <div className="event-date-latest">
-                  <i className="far fa-calendar-alt"></i> {event.date}
-                </div>
-                <h3 className="card-title-latest">{event.title}</h3>
-                <p className="card-text-latest">{event.description}</p>
-                <a href={event.link} className="btn-primary-latest">
-                  Read More
-                </a>
-              </div>
-            </div>
-          ))
-        )}
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "20px", alignItems: "center" , justifyContent:"center"}}>
+  <iframe
+    src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/SIHSsargodha&tabs=timeline&width=1000&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+    style={{ border: "none", overflow: "hidden", width: "100%", height: "800px" ,margin:"auto"}}
+    scrolling="no"
+    frameBorder="0"
+    allowFullScreen={true}
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+  />
+</div>
       </div>
     </div>
   );

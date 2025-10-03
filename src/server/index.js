@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import User from "../models/User.js"; 
 import cors from "cors"
 
-const mongoURI = process.env.MONGO_URI || "mongodb://localhost:27017/mydatabase";
+const mongoURI = process.env.MONGO_URI || "mongodb://localhost:27017/sihs";
 
 mongoose
   .connect(mongoURI, {

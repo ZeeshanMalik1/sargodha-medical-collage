@@ -32,6 +32,7 @@
 .principal-text-content {
   flex: 2.5;
   animation: slideInLeft 1s ease;
+  line-height: 0.7;
 }
 
 .principal-role {
